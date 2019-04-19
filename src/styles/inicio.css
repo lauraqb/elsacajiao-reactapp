@@ -1,0 +1,46 @@
+
+.ec {
+    color: white;
+    font-style: "FreightDisp Pro Bold";
+    background-image: url("../images/inicio-background-1.jpg");
+    max-width: 2000px;
+    background-size: 2000px auto;
+    background-position: center top;
+    background-repeat: repeat-y;
+}
+
+.homepage a {
+    color: white;
+}
+
+.homepage-post{
+    padding: 100px !important;
+
+}
+.homepage-post-1{
+  
+}
+.homepage-post-2{
+}
+.homepage-post-3{
+
+}
+.homepage-post-4{
+
+}
+
+
+.polaroid-wrapper {
+
+}
+#mask {
+    position: absolute;
+    transform: rotate(-14.5deg);
+    top: 42px;
+    left: 139px;
+    height: 258px;
+    overflow: hidden;
+}
+#mask img {
+    width: 200px;
+}
