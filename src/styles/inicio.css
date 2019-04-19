@@ -1,7 +1,13 @@
-
+@font-face {font-family: "Freight Display Pro";
+    src: url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.eot");
+    src: url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.svg#Freight Display Pro") format("svg");
+}
 .ec {
     color: white;
-    font-style: "FreightDisp Pro Bold";
     background-image: url("../images/inicio-background-1.jpg");
     max-width: 2000px;
     background-size: 2000px auto;
@@ -9,29 +15,29 @@
     background-repeat: repeat-y;
 }
 
+.homepage {
+    color: white;
+    font-family: "Freight Display Pro";
+}
 .homepage a {
     color: white;
 }
 
-.homepage-post{
-    padding: 100px !important;
+.homepage a:hover {
+    text-decoration: none;
+    color: white;
+}
 
+.homepage-post{
+    padding: 150px !important;
 }
 .homepage-post-1{
-  
 }
 .homepage-post-2{
 }
 .homepage-post-3{
-
 }
 .homepage-post-4{
-
-}
-
-
-.polaroid-wrapper {
-
 }
 #mask {
     position: absolute;
@@ -44,3 +50,14 @@
 #mask img {
     width: 200px;
 }
+.homepage-book{
+    height: 770px;
+}
+.homepage-glasses{
+    height: 330px;
+}
+.homepage-flowers{
+    height: 600px;
+    overflow: hidden;
+}
+
