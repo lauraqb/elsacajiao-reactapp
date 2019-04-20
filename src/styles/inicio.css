@@ -1,11 +1,4 @@
-@font-face {font-family: "Freight Display Pro";
-    src: url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.eot");
-    src: url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.svg#Freight Display Pro") format("svg");
-}
+
 .ec {
     color: white;
     background-image: url("../images/inicio-background-1.jpg");
@@ -14,30 +7,40 @@
     background-position: center top;
     background-repeat: repeat-y;
 }
-
 .homepage {
     color: white;
-    font-family: "Freight Display Pro";
 }
 .homepage a {
     color: white;
 }
-
 .homepage a:hover {
     text-decoration: none;
     color: white;
 }
-
-.homepage-post{
+/* .homepage-post{
     padding: 150px !important;
+} */
+
+.hp-col-autora {
+    padding-top: 200px;
 }
-.homepage-post-1{
+.hp-col-polaroid {
+    height: 350px;
 }
-.homepage-post-2{
+.hp-col-book {
+    height: 750px;
 }
-.homepage-post-3{
+.hp-col-contacto {
+    padding-top: 150px;
 }
-.homepage-post-4{
+.hp-col-articulo {
+    padding-top: 100px;
+}
+.homepage-glasses{
+    height: 330px;
+}
+.hp-col-contacto {
+    padding-top: 100px;
 }
 #mask {
     position: absolute;
@@ -50,14 +53,10 @@
 #mask img {
     width: 200px;
 }
-.homepage-book{
-    height: 770px;
-}
-.homepage-glasses{
-    height: 330px;
-}
-.homepage-flowers{
+
+
+.hp-col-flowers{
     height: 600px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 

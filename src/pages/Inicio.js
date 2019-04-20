@@ -13,11 +13,11 @@ class Inicio extends React.Component {
         return <div className="ec">
         <Navbar></Navbar>
             <div className="container-fluid homepage">
-                <div className="row">
-                    <div className="col-xs-12 col-sm-6 col-lg-6 homepage-post" align="right">
+                <div className="row ">
+                    <div className="col-xs-12 col-sm-6 col-lg-6 hp-col-autora" align="center">
                         <Link to="./autora"><h1>Elsa Cajiao</h1></Link>
                     </div>
-                    <div className="col-xs-12 col-sm-6 col-lg-6">
+                    <div className="col-xs-12 col-sm-6 col-lg-6 hp-col-polaroid">
                         <img src={polaroid} alt="Perfil"/>
                         <Link to="./autora">
                             <div id="mask">
@@ -26,16 +26,16 @@ class Inicio extends React.Component {
                         </Link>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col-xs-12 col-sm-6 col-lg-6 homepage-book">
+                <div className="row flex-column-reverse flex-md-row">
+                    <div className="col-xs-12 col-sm-6 col-lg-6 hp-col-book">
                         <img src={notebook} alt="notebook"/>
                     </div>
-                    <div className="col-xs-12 col-sm-6 col-lg-6 homepage-post homepage-post-2">
+                    <div className="col-xs-12 col-sm-6 col-lg-6 hp-col-contacto" align="center">
                         <Link to="./novelas"><h1>Novelas</h1></Link>
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-xs-12 col-sm-6 col-lg-6 homepage-post homepage-post-3" align="right">
+                    <div className="col-xs-12 col-sm-6 col-lg-6 hp-col-articulo" align="center">
                         <Link to="./articulos"><h1>Artículos</h1></Link>
                     </div>
                     <div className="col-xs-12 col-sm-6 col-lg-6 homepage-glasses">
@@ -43,10 +43,10 @@ class Inicio extends React.Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-xs-12 col-sm-6 col-lg-6 homepage-flowers">
+                    <div className="col-xs-12 col-sm-6 col-lg-6 hp-col-flowers">
                         <img src={flores} alt="flores"/>
                     </div>
-                    <div className="col-xs-12 col-sm-5 col-lg-4 homepage-post homepage-post-4">
+                    <div className="col-xs-12 col-sm-5 col-lg-4 hp-col-contacto" align="center">
                         <Link to="./contacto"><h1>Contacto</h1></Link>
                     </div>
                 </div>

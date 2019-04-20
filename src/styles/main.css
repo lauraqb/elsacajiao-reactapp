@@ -1,0 +1,36 @@
+@font-face {font-family: "Freight Display Pro";
+    src: url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.eot");
+    src: url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.svg#Freight Display Pro") format("svg");
+}
+
+h1 {
+    font-family: "Freight Display Pro";
+}
+
+.ec-title {
+    color: white;
+    padding: 20px 0;
+}
+
+.ec-content {
+    background-color: #f2f2f2;
+    color: #4d4d4d;
+}
+
+.ec-list {
+    padding: 10px;
+}
+.ec-list .row {
+    padding-top: 20px;
+}
+.ec-list img {
+    box-shadow: 9px 9px 7px grey;
+}
+
+.col-autora {
+    padding-top: 40px;
+}

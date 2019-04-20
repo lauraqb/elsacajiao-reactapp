@@ -11,7 +11,7 @@ class Autora extends React.Component {
         <Navbar></Navbar>
         <div className="container">
             <div className="row">
-                <div className="col-xs-12 col-sm-6 col-lg-6 homepage-post" align="right">
+                <div className="col-xs-12 col-sm-6 col-lg-6 col-autora" align="center">
                     <h1>Elsa Cajiao</h1>
                     <p>Lletja</p>
                 </div>

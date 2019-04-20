@@ -1,3 +1,7 @@
 .ec-navbar{
     opacity: 0.7;
 }
+.ec-navbar:hover {
+    opacity: 1;
+}
+
