@@ -2,6 +2,7 @@
 .ec {
     color: white;
     background-image: url("../images/inicio-background-1.jpg");
+    min-height: calc(100vh);
     max-width: 2000px;
     background-size: 2000px auto;
     background-position: center top;
@@ -40,7 +41,7 @@
     height: 330px;
 }
 .hp-col-contacto {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 #mask {
     position: absolute;
@@ -55,8 +56,16 @@
 }
 
 
-.hp-col-flowers{
+/* .hp-col-flowers{
     height: 600px;
-    /* overflow: hidden; */
-}
+    overflow: hidden;
+} */
 
+.footer {
+    height: 40px;
+    margin-top: -40px;
+    opacity: 0.7;
+    background-color: black;
+    color: white;
+    vertical-align: middle;
+}
