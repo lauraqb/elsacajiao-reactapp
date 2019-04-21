@@ -1,27 +1,39 @@
-@font-face {font-family: "Freight Display Pro";
+/* @font-face {font-family: "Freight Display Pro";
     src: url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.eot");
     src: url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.eot?#iefix") format("embedded-opentype"),
     url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.woff2") format("woff2"),
     url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.woff") format("woff"),
     url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.ttf") format("truetype"),
     url("//db.onlinewebfonts.com/t/8720f956d3414c7b72d0fc21b5989ac1.svg#Freight Display Pro") format("svg");
+} */
+
+/* dancing-script-regular - latin */
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/dancing-script-v10-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Dancing Script Regular'), local('DancingScript-Regular'),
+       url('../fonts/dancing-script-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/dancing-script-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/dancing-script-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/dancing-script-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/dancing-script-v10-latin-regular.svg#DancingScript') format('svg'); /* Legacy iOS */
 }
 
-h1 {
+/* h1 {
     font-family: "Freight Display Pro";
-}
+} */
 
 .ec-title {
     color: white;
     padding: 20px 0;
 }
-
 .ec-content {
     background-color: #f2f2f2;
     color: #4d4d4d;
     margin-bottom: 30px;
 }
-
 .ec-list {
     padding: 10px;
 }
@@ -31,7 +43,24 @@ h1 {
 .ec-list img {
     box-shadow: 9px 9px 7px grey;
 }
-
 .col-autora {
     padding-top: 40px;
+}
+.contact-letter-wrapper {
+  height: 350px;
+  margin-top: -110px;
+  overflow: hidden;
+}
+.contact-letter {
+    margin-top: 100px;
+    font-family: 'Dancing Script';
+    font-size: 1.5rem;
+    -webkit-transform: rotate(350deg);
+    transform: rotate(350deg);
+    float: right;
+    width: 775px;
+    height: 400px;
+    padding: 50px;
+    color: black;
+    background-image: url("https://c.pxhere.com/photos/fd/2a/paper_white_grey_handmade_handmade_paper_texture_papyrus_parchment-1412534.jpg!d");
 }

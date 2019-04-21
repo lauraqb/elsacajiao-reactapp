@@ -6,7 +6,8 @@ import { NavLink  } from 'react-router-dom';
 
 class Menu extends React.Component {
     render() {
-        return <Navbar bg="light" variant="light" className="ec-navbar">
+        return <Navbar variant="dark" className="ec-navbar">
+
         <Nav className="mr-auto">
           <NavLink to="/" activeClassName="active" exact={true} className="nav-link">Inicio</NavLink >
           <NavLink to="/autora" activeClassName="active" className="nav-link">Autora</NavLink >
@@ -17,5 +18,5 @@ class Menu extends React.Component {
       </Navbar>
     }
 }
-
+//<Navbar bg="light" variant="light" className="ec-navbar">
 export default Menu;
