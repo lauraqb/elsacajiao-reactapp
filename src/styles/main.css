@@ -46,6 +46,12 @@
 .col-autora {
     padding-top: 40px;
 }
+.art-img {
+    float: left;
+    width: 150px;
+}
+
+
 .contact-letter-wrapper {
     height: 300px;
     margin-top: -50px;

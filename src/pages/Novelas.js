@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import dragones from '../images/dragones-de-ogar.jpg';
-//import "../styles/main.css";
 
 class Novelas extends React.Component {
     render() {
@@ -15,7 +14,7 @@ class Novelas extends React.Component {
                 <div className="container ec-list">
                     <div className="row">
                         <div className="col">
-                            <h5>El viento que agita la pluma del aguila salvaje sobrevolando la selva per menjarse a la nena lletja</h5>
+                            <h5>El viento que agita la pluma</h5>
                         </div>
                     </div>
                     <div className="row">
