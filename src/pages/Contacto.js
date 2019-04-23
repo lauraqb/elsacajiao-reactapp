@@ -19,7 +19,8 @@ class Contacto extends React.Component {
         let data = {
           name: document.getElementById('name').value,
           email: document.getElementById('email').value,
-          messsage: document.getElementById('message').value
+          subject: document.getElementById('subject').value,
+          message: document.getElementById('message').value
         }
         //const API_URI= "http://localhost:9000/send";
         const API_URI= "https://elsacajiao-api.herokuapp.com/send";
@@ -49,7 +50,7 @@ class Contacto extends React.Component {
                       <Form.Label>Email (obligatorio)</Form.Label>
                       <Form.Control type="email" placeholder="name@example.com" />
                   </Form.Group>
-                  <Form.Group controlId="exampleForm.ControlInput1">
+                  <Form.Group controlId="subject">
                       <Form.Label>Asunto</Form.Label>
                       <Form.Control type="text" placeholder="Asunto" />
                   </Form.Group>

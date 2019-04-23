@@ -47,20 +47,22 @@
     padding-top: 40px;
 }
 .contact-letter-wrapper {
-  height: 350px;
-  margin-top: -110px;
-  overflow: hidden;
+    height: 300px;
+    margin-top: -50px;
+    margin-bottom: -25px;
+    overflow: hidden;
 }
 .contact-letter {
     margin-top: 100px;
     font-family: 'Dancing Script';
     font-size: 1.5rem;
-    -webkit-transform: rotate(350deg);
-    transform: rotate(350deg);
+    word-wrap: break-word;
     float: right;
     width: 775px;
     height: 400px;
     padding: 50px;
-    color: black;
+    color: #3e3b3b;
     background-image: url("../images/paper.jpg");
+    -webkit-transform: rotate(350deg);
+    transform: rotate(350deg);
 }
