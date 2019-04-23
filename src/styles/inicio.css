@@ -18,6 +18,10 @@
     text-decoration: none;
     color: white;
 }
+
+.homepage h1 {
+    text-shadow: 1px 1px 2px #232222;
+}
 /* .homepage-post{
     padding: 150px !important;
 } */
@@ -68,4 +72,23 @@
     background-color: black;
     color: white;
     vertical-align: middle;
+}
+
+.hp-flipbook{
+    position: absolute !important;
+    color: black;
+    top: 119px;
+    left: 126px;
+    transform: rotate(16.0deg);
+}
+
+.hp-flipbook__page{
+    cursor: pointer;
+    word-wrap: none;
+    height: 100%;
+    padding: 30px;
+    background-image: url("../images/paper.jpg");
+}
+.hp-flipbook__page .col{
+    padding: 30px;
 }

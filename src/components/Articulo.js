@@ -10,7 +10,7 @@ class Articulo extends React.Component {
                 </div>
                 <div>
                     <h5>{this.props.title}</h5>
-                    <p>{this.props.description}</p>
+                    <p className="art-paragraph">{this.props.description}</p>
                 </div>  
             </div>
         </div>

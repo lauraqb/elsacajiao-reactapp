@@ -50,7 +50,9 @@
     float: left;
     width: 150px;
 }
-
+.art-paragraph {
+    font-size: 14px;
+}
 
 .contact-letter-wrapper {
     height: 300px;
