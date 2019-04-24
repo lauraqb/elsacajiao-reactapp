@@ -82,13 +82,23 @@
     transform: rotate(16.0deg);
 }
 
+
 .hp-flipbook__page{
     cursor: pointer;
     word-wrap: none;
     height: 100%;
-    padding: 30px;
+    padding: 0 20px;
     background-image: url("../images/paper.jpg");
 }
 .hp-flipbook__page .col{
-    padding: 30px;
+    padding: 50px;
 }
+
+.hp-leftpage {
+    background: linear-gradient(to right, transparent 90%, #4441412e 100%); 
+}
+.hp-rightpage {
+    background: linear-gradient(to left, transparent 95%, #44414112 100%);
+}
+
+
