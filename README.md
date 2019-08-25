@@ -1,8 +1,8 @@
 # elsa-cajiao
 React js application
 
-# Set up
+## Set up
 `npm i`
 
-# Run application
+## Run application
 `npm start`
