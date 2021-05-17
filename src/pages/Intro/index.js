@@ -1,15 +1,14 @@
 import React from 'react';
-import "../styles/inicio.css";
+import "./inicio.css";
 import { Link } from 'react-router-dom';
 import FlipPage from 'react-flip-page';
-import Pagina from '../components/Pagina'
-import Navbar from '../components/Navbar';
-import polaroid from '../images/polaroids.png';
-import elsaFoto from '../images/elsa1.jpg';
-import notebook from '../images/notebook.png';
-import glasses from '../images/glasses.png';
-import flores from '../images/flores.png';
-import paper from '../images/paper.jpg';
+import Pagina from 'components/Pagina'
+import polaroid from 'images/polaroids.png';
+import elsaFoto from 'images/elsa1.jpg';
+import notebook from 'images/notebook.png';
+import glasses from 'images/glasses.png';
+import flores from 'images/flores.png';
+import paper from 'images/paper.jpg';
 const page1 = "Dentro de la rígida jerarquía social de Ógar, mi planeta nativo, los dragones esmeralda ocupamos un mísero lugar entre los trabajadores de la construcción. Cada uno de nosotros tiene asignado su papel casi desde el nacimiento. El que tenían reservado para mí, cuando terminara los estudios primarios, era avivar el fuego de los hornos donde se cuece el ladrillo, en la misma fábrica en que trabajaban papá y mis dos hermanos mayores. Esta desgracia me fue comunicada en la escuela a una edad en que no podía comprender su";
 const page2 = "significado. Durante mis primeros años fui feliz, pues ni mis padres ni los profesores volvieron a recordármela hasta poco antes de finalizar el que sería mi último año escolar. Entonces pude entender en toda su magnitud mi negro porvenir. No soportaba siquiera imaginar que un día volvería a casa igual que mi padre y mis hermanos, agotado, enfermo y cubierto de ese tizne que con el paso de los años borra por completo el hermoso color natural verde esmeralda característico de nuestra raza. Por desgracia, nuestro color es también señal de unos pulmones potentes capaces de producir fuego continuamente, lo que nos hace idóneos para el trabajo en los hornos";
 const page3 = "de ladrillo. \nEstos hornos están situados en profundos sótanos a los cuales descienden los obreros cuando despunta el sol y de los que no vuelven a salir hasta el anochecer. Por cada siete días laborables hay uno libre y veinte días seguidos cada vez que Ógar completa una vuelta entera alrededor de nuestro sol. La finalidad de estas vacaciones no es darles un respiro a los obreros para que disfruten de la vida, sino para que se recuperen de las muchas dolencias físicas provocadas por el encierro claustrofóbico en los hornos y el incesante producir de fuego, fatal para sus pulmones. Decidido a luchar contra el destino infausto que varias generaciones de dragones esmeralda";
@@ -35,7 +34,6 @@ class Inicio extends React.Component {
     }
      render() {
         return <div className="ec">
-        <Navbar></Navbar>
             <div className="container-fluid homepage">
                 <div className="row ">
                     <div className="col-xs-12 col-sm-6 col-lg-6 hp-col-autora" align="center">

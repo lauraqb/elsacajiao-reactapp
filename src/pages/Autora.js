@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import polaroid from '../images/polaroids.png';
 import elsaFoto from '../images/elsa1.jpg';
 //import "../styles/main.css";
@@ -8,7 +7,6 @@ import elsaFoto from '../images/elsa1.jpg';
 class Autora extends React.Component {
     render() {
         return <div className="ec">
-        <Navbar></Navbar>
         <div className="container">
             <div className="row">
                 <div className="col-xs-12 col-sm-6 col-lg-6 col-autora" align="center">

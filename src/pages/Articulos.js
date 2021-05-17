@@ -1,11 +1,9 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import Articulo from '../components/Articulo';
 
 class Articulos extends React.Component {
     render() {
         return <div className="ec">
-        <Navbar></Navbar>
         <div className="ec-title" align="center">
                 <h1>Artículos</h1>
             </div>

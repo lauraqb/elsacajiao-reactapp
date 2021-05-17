@@ -1,16 +1,20 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Layout from './Layout'
-import Inicio from '../pages/Inicio';
-import Contacto from '../pages/Contacto';
-import Autora from '../pages/Autora';
-import Novelas from '../pages/Novelas';
-import Articulos from '../pages/Articulos';
+import Layout from '../../components/Layout'
+import Inicio from '../Intro';
+import Contacto from '../Contacto';
+import Autora from '../Autora';
+import Novelas from '../Novelas';
+import Articulos from '../Articulos';
+import Header from '../../components/Header';
+import './app.css'
 
 function App() {
     return (
+        <div className="base">
         <BrowserRouter>
-            <Layout>
+            <Layout >
+                <Header/>
                 <Switch>
                     <Route exact path="/" component={Inicio} />
                     <Route exact path="/autora" component={Autora} />
@@ -20,6 +24,7 @@ function App() {
                 </Switch>
             </Layout>
         </BrowserRouter>
+        </div>
     );
 }
 

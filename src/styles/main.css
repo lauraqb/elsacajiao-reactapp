@@ -63,7 +63,7 @@
     height: 400px;
     padding: 50px;
     color: #3e3b3b;
-    background-image: url("../images/paper.jpg");
+    background-image: url("/images/paper.jpg");
     -webkit-transform: rotate(350deg);
     transform: rotate(350deg);
 }

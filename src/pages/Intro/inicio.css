@@ -1,7 +1,8 @@
 
 .ec {
-    color: white;
-    background-image: url("../images/inicio-background-2.jpg");
+    color: rgb(34, 21, 6);
+    
+    /* background-image: url("../images/inicio-background-2.jpg"); */
     min-height: calc(100vh);
     max-width: 2000px;
     background-size: 2000px auto;
@@ -9,14 +10,14 @@
     background-repeat: repeat-y;
 }
 .homepage {
-    color: white;
+    color: rgb(37, 19, 4);
 }
 .homepage a {
-    color: white;
+    color: rgb(37, 19, 4);
 }
 .homepage a:hover {
     text-decoration: none;
-    color: white;
+    color: rgb(128, 66, 16);
 }
 
 .homepage h1 {
@@ -60,11 +61,6 @@
 }
 
 
-/* .hp-col-flowers{
-    height: 600px;
-    overflow: hidden;
-} */
-
 .footer {
     height: 40px;
     margin-top: -40px;
@@ -88,7 +84,8 @@
     word-wrap: none;
     height: 100%;
     padding: 0 20px;
-    background-image: url("../images/paper.jpg");
+    background-color: rgb(251, 235, 224);
+    /* background-image: url("/images/paper.jpg"); no funciona */
 }
 .hp-flipbook__page .col{
     padding: 50px;

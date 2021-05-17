@@ -1,11 +1,9 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import dragones from '../images/dragones-de-ogar.jpg';
 
 class Novelas extends React.Component {
     render() {
         return <div className="ec">
-        <Navbar></Navbar>
         
             <div className="ec-title" align="center">
                 <h1>Novelas</h1>

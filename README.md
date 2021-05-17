@@ -2,7 +2,7 @@
 React js application
 
 ## Set up
-`npm i`
+`yarn`
 
 ## Run application
-`npm start`
+`yarn start`

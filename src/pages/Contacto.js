@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 //import "../styles/main.css";
 import Form from 'react-bootstrap/Form';
 import axios from 'axios';
@@ -38,7 +37,6 @@ class Contacto extends React.Component {
 
     render() {
         return <div className="ec">
-          <Navbar></Navbar>
           <div className="container">
               <br/>
               <Form onSubmit={this.handleSubmit} method="POST">
