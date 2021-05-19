@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Layout from '../../components/Layout'
-import Inicio from '../Intro';
-import Contacto from '../Contacto';
-import Autora from '../Autora';
-import Novelas from '../Novelas';
-import Articulos from '../Articulos';
-import Header from '../../components/Header';
+import Layout from 'components/Layout'
+import Inicio from 'pages/Intro';
+import Contacto from 'pages/Contacto';
+import Autora from 'pages/Autora';
+import Novelas from 'pages/Novelas';
+import Articulos from 'pages/Articulos';
+import Header from 'components/Header';
 import './app.css'
 
 function App() {

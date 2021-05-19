@@ -1,7 +1,7 @@
 import React from 'react';
 import "./inicio.css";
 import { Link } from 'react-router-dom';
-import FlipPage from 'react-flip-page';
+//import FlipPage from 'react-flip-page';
 import Pagina from 'components/Pagina'
 import polaroid from 'images/polaroids.png';
 import elsaFoto from 'images/elsa1.jpg';
@@ -15,7 +15,7 @@ const page3 = "de ladrillo. \nEstos hornos están situados en profundos sótanos
 const page4 = "habían venido aceptando sumisas desde que empezara a agotarse el coulí, el principal recurso energético del planeta, solicité por escrito al consejo escolar permiso para continuar mis estudios en la etapa secundaria, adjuntando mis notas y el tímido respaldo de dos profesores como pruebas de mi capacidad y aptitudes. La respuesta oficial no tardó en llegar con una negativa rotunda salpicada de severas acusaciones —pretender quebrantar el orden cósmico y los designios del Gran Poderoso— y amenazas de graves sanciones. Ni una palabra sobre mi expediente académico; ni una mención a las escuetas recomendaciones de mis profesores.";
 //const page5 = "Los dragones esmeralda éramos nada, velas destinadas a consumirse bajo su propia llama. El empobrecimiento de la educación ponía de manifiesto el abismo en que se estaba hundiendo nuestra civilización a falta del coulí. En las escuelas de las razas dominadas como la nuestra, los profesores mejor valorados en los tiempos no muy antiguos en que Ógar";
 //const page6 = "estaba en la cumbre de la prosperidad, iban siendo sustituidos poco a poco por otros fieles al régimen, o bien ellos mismos, por temor al despido, abandonaban la enseñanza de las artes, las ciencias naturales "
-class Inicio extends React.Component {
+class Intro extends React.Component {
     //constructor, that initializes the default state
     constructor(props) {
         super(props);
@@ -52,7 +52,7 @@ class Inicio extends React.Component {
                 <div className="row flex-column-reverse flex-md-row">
                     <div className="col-xs-12 col-sm-6 col-lg-7 hp-col-book">
                         <img src={notebook} alt="notebook"/>
-                        <FlipPage orientation="horizontal" uncutPages="true" pageBackground={paper} 
+                        {/* <FlipPage orientation="horizontal" uncutPages="true" pageBackground={paper} 
                         animationDuration="400" perspective="100em" showHint="true" width="750" height="550" className="hp-flipbook">
                             <article className="hp-flipbook__page">
                                 <div className="row">
@@ -66,7 +66,7 @@ class Inicio extends React.Component {
                                     <Pagina page={page4}/>
                                 </div>
                             </article>
-                        </FlipPage>
+                        </FlipPage> */}
                     </div>
                     <div className="col-xs-12 col-sm-6 col-lg-5 hp-col-contacto" align="center">
                         <Link to="./novelas"><h1>Novelas</h1></Link>
@@ -95,5 +95,5 @@ class Inicio extends React.Component {
 
     }
 }
-//<div className="footer">hola</div>
-export default Inicio;
+
+export default Intro;

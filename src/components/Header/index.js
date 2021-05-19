@@ -19,5 +19,5 @@ class Menu extends React.Component {
         )
     }
 }
-//<Navbar bg="light" variant="light" className="ec-navbar">
+
 export default Menu;

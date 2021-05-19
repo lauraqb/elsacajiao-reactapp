@@ -1,6 +1,6 @@
 import React from 'react';
-import polaroid from '../images/polaroids.png';
-import elsaFoto from '../images/elsa1.jpg';
+import polaroid from 'images/polaroids.png';
+import elsaFoto from 'images/elsa1.jpg';
 //import "../styles/main.css";
 
 
