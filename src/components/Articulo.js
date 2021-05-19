@@ -6,7 +6,7 @@ class Articulo extends React.Component {
         return <div className="row">
             <div className="col">
                 <div className="art-img">
-                    <img src={emilyThumbnail}></img>
+                    <img src={emilyThumbnail} alt="email"></img>
                 </div>
                 <div>
                     <h5>{this.props.title}</h5>
